@@ -1,3 +1,1 @@
 # Networth
-
-hi
