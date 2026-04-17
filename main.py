@@ -22,7 +22,7 @@ def calc_hustlescore(totalpoints=None, months=1, frozen_months=0):
         yearly = sum(last_12) / 100
     else:
         yearly = 0
-#hellooo
+
     return monthly, yearly, lifetime
     
    # points = 0
