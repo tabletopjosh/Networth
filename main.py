@@ -3,8 +3,8 @@ def calc_hustlescore(totalpoints=None, months=1, frozen_months=0):
     if totalpoints is None:
         totalpoints = []
 
-    if months - frozen_months <= 0:
-        raise ValueError("months must be greater than frozen_months")
+    # if months - frozen_months <= 0:
+        # raise ValueError("months must be greater than frozen_months")
 
     points = sum(totalpoints)
 
