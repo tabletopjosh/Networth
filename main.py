@@ -26,14 +26,14 @@ def calc_hustlescore(totalpoints=None, months=1, frozen_months=0):
     return monthly, yearly, lifetime
     
    # points = 0
-    #yearly
-    #for i in totalpoints:
-     #   points += i
-    #lifetime = points/(months-frozen_months)
-    #if len(totalpoints)%12-frozen_months>0:
-     #   monthsinyear = len(totalpoints)%12-frozen_months
-      #  yearly = totalpoints[-12:]/100*monthsinyear
+   #  yearly
+   #  for i in totalpoints:
+   #     points += i
+   #  lifetime = points/(months-frozen_months)
+   #  if len(totalpoints)%12-frozen_months>0:
+   #     monthsinyear = len(totalpoints)%12-frozen_months
+   #     yearly = totalpoints[-12:]/100*monthsinyear
 
-    #monthly = totalpoints[-1]/100
-    #return monthly, yearly, lifetime
+   #  monthly = totalpoints[-1]/10
+   # return monthly, yearly, lifetime
 
